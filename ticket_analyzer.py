@@ -2,36 +2,11 @@
 # Beginner Python project by Ruth Okorley
 
 tickets = [
-    {
-        "ticket_id": 1,
-        "issue": "Slow computer performance",
-        "category": "Performance",
-        "escalation_needed": "No"
-    },
-    {
-        "ticket_id": 2,
-        "issue": "Wi-Fi connected but no internet",
-        "category": "Network",
-        "escalation_needed": "No"
-    },
-    {
-        "ticket_id": 3,
-        "issue": "Windows update/security warning",
-        "category": "Security/Updates",
-        "escalation_needed": "Yes"
-    },
-    {
-        "ticket_id": 4,
-        "issue": "Startup apps slowing boot time",
-        "category": "Performance",
-        "escalation_needed": "No"
-    },
-    {
-        "ticket_id": 5,
-        "issue": "Software/application not opening",
-        "category": "Application Support",
-        "escalation_needed": "Yes"
-    }
+    {"ticket_id": 1, "issue": "Slow computer performance", "category": "Performance", "escalation_needed": "No"},
+    {"ticket_id": 2, "issue": "Wi-Fi connected but no internet", "category": "Network", "escalation_needed": "No"},
+    {"ticket_id": 3, "issue": "Windows update/security warning", "category": "Security/Updates", "escalation_needed": "Yes"},
+    {"ticket_id": 4, "issue": "Startup apps slowing boot time", "category": "Performance", "escalation_needed": "No"},
+    {"ticket_id": 5, "issue": "Software/application not opening", "category": "Application Support", "escalation_needed": "Yes"}
 ]
 
 total_tickets = len(tickets)
