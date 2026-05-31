@@ -39,3 +39,14 @@ The Python script calculates:
 ## Career Relevance
 
 This project supports entry-level IT Support, Help Desk Technician, Application Support Specialist, and Technical Support Specialist roles by showing beginner technical documentation and Python-based ticket analysis.
+
+## Sample Output
+
+The program reviewed five practice help desk tickets and produced a summary showing:
+
+- Total tickets reviewed: 5
+- Tickets requiring escalation: 2
+- Tickets resolved without escalation: 3
+- Ticket categories: Performance, Network, Security/Updates, and Application Support
+
+A screenshot of the program output is included in this repository.
